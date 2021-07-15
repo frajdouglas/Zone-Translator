@@ -25,6 +25,7 @@ For the weighted translation the script uses Geopandas again to calculate the co
 
 The two zone-to-LSOA correspondences are then compared to one another to search for overlaps between the same LSOAs.
 
+INSERT DIAGRAM OF BASIC METHODOLOGY FOR CHOOSING THE LARGER OF THE TWO OVERLAPS
 
 
 Each run of the tool will be logged in the master_zone_translation_log.csv which will be created in the location specified by the "save_path" variable.
