@@ -19,24 +19,22 @@ The translation can be weighted by either population or employment. This is defi
 
 For the non weighted correspondence the script uses a Geopandas function to intersect the zones. The overlaps are then quantified by calculating the ratio of the overlap to each zone's area.
 
-### Example of a non weighted correspondence output
-
 For the weighted translation the script uses Geopandas again to calculate the correspondence between the input zones and the Lower Super Output Areas (LSOAs).
 
 The two zone-to-LSOA correspondences are then compared to one another to search for overlaps between the same LSOAs.
 
-INSERT DIAGRAM OF BASIC METHODOLOGY FOR CHOOSING THE LARGER OF THE TWO OVERLAPS
+## Output
+![](screenshots_for_readme/output_example.png?raw=true)
 
+## Process Flow
+![](screenshots_for_readme/high_level_process_diagram.png?raw=true)
 
 Each run of the tool will be logged in the master_zone_translation_log.csv which will be created in the location specified by the "save_path" variable.
-
-
-
 
 ## User Guide
 
 - Download the LSOA areas, populations and employment figures. 
-- Download the scripts from GitHub and installing the required Pandas and Geopandas modules into your environment.
+- Download the scripts from GitHub and installing the required pandas and Geopandas modules into your environment.
 - Open the "run_zone_translation.py" script. 
 - At the bottom of the script change the "main()" function's inputs.
 - Inputs required are:
