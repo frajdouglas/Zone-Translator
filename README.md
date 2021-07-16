@@ -30,7 +30,7 @@ The two zone-to-LSOA correspondences are then compared to one another to search 
 ![](screenshots_for_readme/output_example.png?raw=true)
 
 ## Process Flow
-![](screenshots_for_readme/high_level_process_diagram.png?raw=true)
+![](screenshots_for_readme/high_level_diagram.png?raw=true)
 
 Each run of the tool will be logged in the master_zone_translation_log.csv which will be created in the location specified by the "save_path" variable.
 
