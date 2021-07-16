@@ -36,7 +36,7 @@ Each run of the tool will be logged in the master_zone_translation_log.csv which
 ## User Guide
 
 - Download the LSOA areas, populations and employment figures. 
-- Download the scripts from GitHub and installing the required pandas and Geopandas modules into your environment.
+- Download the scripts from GitHub and installing the required Pandas and Geopandas modules into your environment.
 - Open the "run_zone_translation.py" script. 
 - At the bottom of the script change the "main()" function's inputs.
 - Inputs required are:
