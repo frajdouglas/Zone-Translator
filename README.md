@@ -4,8 +4,11 @@ This tool is to be used for UK zones however it could be used for other geograph
 These data sources can be found here:
 
 Boundaries: https://geoportal.statistics.gov.uk/datasets/lower-layer-super-output-areas-december-2011-boundaries-generalised-clipped-bgc-ew-v3/explore    
+
 Populations: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/lowersuperoutputareamidyearpopulationestimates
+
 Employment: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datalist?filter=user_requested_data&size=50&sortBy=release_date&page=2
+
 (Always check for the latest release of the data)
 
 The tool will output a non weighted correspondence between the two input zones as standard. These are labelled as "zone1_to_zone2_correspondence.csv".
